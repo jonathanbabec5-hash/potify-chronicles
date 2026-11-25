@@ -1,7 +1,7 @@
 {
   "project": "The POTIFY Chronicles",
   "kind": "Public Book I excerpt edition",
-  "source": "potify-first-cycle at `7bc29685d6decd1f3d1bbbb0216f837bc7701a51`. Verbatim public reading article from the First Cycle edition, with outbound reading links adapted.",
+  "source": "potify-first-cycle at `7bc29685d6decd1f3d1bbbb0216f837bc7701a51`. Verbatim public reading article from the First Cycle edition, with outbound reading links adapted. Authenticated potify-website main b40b28683e548a04619f1e018814dd91aec1256d provided the original Chronicle sections and reader component. The offline book is derived from those exact sections.",
   "scope": "This edition contains the public opening. Unreleased Book II and branching manuscripts stay with their author.",
   "prepared": "2026-11-25"
 }

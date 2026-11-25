@@ -9,8 +9,14 @@ potify-chronicles/
 │   ├── WHITEPAPER.md
 │   └── source.json
 ├── public/
+│   ├── book.html
 │   └── index.html
+├── reference/
+│   └── chronicle-reader.tsx
+├── src/
+│   └── chronicle.ts
 ├── tests/
+│   ├── book.test.mjs
 │   └── project.test.mjs
 ├── .gitignore
 ├── README.md

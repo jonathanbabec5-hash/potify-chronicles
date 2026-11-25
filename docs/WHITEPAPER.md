@@ -1,7 +1,7 @@
 # The POTIFY Chronicles
 ## Whitepaper · public developer edition
 
-**November 25, 2026 · Public Book I excerpt edition**
+**November 25, 2026 · Original Book I text, reader source and offline edition**
 
 ### Goal and audience
 
@@ -9,15 +9,15 @@ Give readers a clean, shareable entry to the story behind POTIFY. The immediate 
 
 ### Design and implementation
 
-The reader extracts the published opening pages from the First Cycle frontend, retaining their order and the link to the complete reading destination. The excerpt is a versioned publication. Preserve paragraph sequence and attribution so an introduction shared on a phone reads as the author intended.
+The public sampler opens the website’s Book I source as an offline edition, preserving section identifiers and paragraph order. The original React reader component is retained as implementation reference. The excerpt is a versioned publication. Preserve paragraph sequence and attribution so an introduction shared on a phone reads as the author intended.
 
 ### What a contributor can establish
 
-The public entry page returned HTTP 200 and rendered local content in Chromium at a 390 × 844 viewport. A sample can lead to the public reading archive even while later books and alternate branches remain under editorial development.
+The reader includes the full website Book I material from the original source, with a test matching the offline section anchors to the canonical text. A sample can lead to the public reading archive even while later books and alternate branches remain under editorial development.
 
 ### Evidence and outstanding work
 
-This edition contains the public opening. Unreleased Book II and branching manuscripts stay with their author. The next acceptance case is concrete. Read the Cultivator’s Note and Introduction offline, then follow the authorized reading destination.
+The public Book I website text, including Chapters I–V, is included. Unreleased Book II and private branching manuscripts remain outside the edition. The next acceptance case is concrete. Read the Cultivator’s Note and Introduction offline, then follow the authorized reading destination.
 
 ### Place in POTIFY
 

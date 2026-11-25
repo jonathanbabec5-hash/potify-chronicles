@@ -2,7 +2,7 @@
 
 [Complete repository directory tree](docs/DIRECTORY.md)
 
-**Public Book I excerpt edition.** Give readers a clean, shareable entry to the story behind POTIFY.
+**Original Book I text, reader source and offline edition.** Give readers a clean, shareable entry to the story behind POTIFY.
 
 ### Setup and usage
 
@@ -16,19 +16,20 @@ Read the opening pages. Open http://127.0.0.1:8000/ in a browser.
 
 ### Developer entry points
 
-The reader extracts the published opening pages from the First Cycle frontend, retaining their order and the link to the complete reading destination. Explore `public/`, `tests/` in the full tree.
+The public sampler opens the website’s Book I source as an offline edition, preserving section identifiers and paragraph order. The original React reader component is retained as implementation reference. Explore `public/`, `reference/`, `src/`, `tests/` in the full tree.
 
 ### Verification
 
-The public entry page returned HTTP 200 and rendered local content in Chromium at a 390 × 844 viewport.
+The reader includes the full website Book I material from the original source, with a test matching the offline section anchors to the canonical text.
 
 ```sh
 node --test tests/project.test.mjs
+node --test tests/book.test.mjs
 ```
 
 ### Release scope
 
-This edition contains the public opening. Unreleased Book II and branching manuscripts stay with their author. potify-first-cycle at `7bc29685d6decd1f3d1bbbb0216f837bc7701a51`. Verbatim public reading article from the First Cycle edition, with outbound reading links adapted.
+The public Book I website text, including Chapters I–V, is included. Unreleased Book II and private branching manuscripts remain outside the edition. potify-first-cycle at `7bc29685d6decd1f3d1bbbb0216f837bc7701a51`. Verbatim public reading article from the First Cycle edition, with outbound reading links adapted. Authenticated potify-website main b40b28683e548a04619f1e018814dd91aec1256d provided the original Chronicle sections and reader component. The offline book is derived from those exact sections.
 
 [Technical whitepaper](docs/WHITEPAPER.md) · [Marketing and sales plan](docs/MARKETING.md) · [Dated developer log](docs/BUILD-LOG.md)
 
