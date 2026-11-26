@@ -2,6 +2,14 @@
 
 [Complete repository directory tree](docs/DIRECTORY.md)
 
+## A bookmark that still points to the same paragraph
+
+The Cultivator’s Note is a deliberate threshold into Book I of The POTIFY Chronicle. A reader who leaves a thought there and follows the song ought to be able to find their way back. For the developer, that quiet promise lives in a section identifier.
+
+The [Book I source](src/chronicle.ts) retains the paragraph sequence. The [reader check](tests/book.test.mjs) verifies that each canonical section has an anchor in the offline book. Chapters I–V are in this public edition. Later manuscripts and private branches are outside it.
+
+[Open the free edition](https://potify-first-cycle.wile-e-coyot.chatgpt.site/#edition), return to a passage, and note the section name if the link loses your place. A precise bookmark report protects the writing without asking readers to reproduce the manuscript.
+
 **Original Book I text, reader source and offline edition.** Give readers a clean, shareable entry to the story behind POTIFY.
 
 ### Setup and usage
