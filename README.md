@@ -1,5 +1,13 @@
 # The POTIFY Chronicles
 
+## Find your way in
+
+| If you are… | Start here | Try this |
+| --- | --- | --- |
+| A reader | [Open the free edition](https://potify-first-cycle.wile-e-coyot.chatgpt.site/#edition) | Read the opening and return to a passage. |
+| A developer | [Inspect the Book I source](src/chronicle.ts) | Follow the canonical paragraph order and section identifiers. |
+| A contributor | [Review the reader test](tests/book.test.mjs) | Check that section anchors lead to the intended text. |
+
 [Complete repository directory tree](docs/DIRECTORY.md)
 
 ## A bookmark that still points to the same paragraph
